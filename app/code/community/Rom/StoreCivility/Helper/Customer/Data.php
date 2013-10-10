@@ -11,8 +11,12 @@ class Rom_StoreCivility_Helper_Customer_Data extends Mage_Customer_Helper_Data
      */
     public function getNamePrefixOptions($store = null)
     {
-        return $this->_prepareNamePrefixSuffixOptions(
-            Mage::getStoreConfig('customer/address/prefix_options_store', $store)
-        );
+        if (true === is_null(Mage::getStoreConfig('customer/address/prefix_options_store', $store))) {
+            return parent::getNamePrefixOptions($store);
+        } else {
+            return $this->_prepareNamePrefixSuffixOptions(
+                Mage::getStoreConfig('customer/address/prefix_options_store', $store)
+            );
+        }
     }
 }
