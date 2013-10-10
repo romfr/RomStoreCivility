@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <sections>
+        <customer>
+            <groups>
+                <address>
+                    <fields>
+                        <prefix_options_store translate="label comment">
+                            <label>Prefix Dropdown Options (Store-specific)</label>
+                            <sort_order>31</sort_order>
+                            <comment><![CDATA[The website-specific prefix options will be overwritten with this setup.<br />Semicolon (;) separated values.<br/>Put semicolon in the beginning for empty first option.<br/>Leave empty for open text field.]]></comment>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </prefix_options_store>
+                    </fields>
+                </address>
+            </groups>
+        </customer>
+    </sections>
+</config>

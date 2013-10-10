@@ -1,0 +1,20 @@
+<?xml  version="1.0"?>
+<config>
+    <modules>
+        <Rom_StoreCivility>
+            <version>0.1.0</version>
+        </Rom_StoreCivility>
+    </modules>
+    <global>
+        <helpers>
+            <romstorecivility>
+                <class>Rom_StoreCivility_Helper</class>
+            </romstorecivility>
+            <customer>
+                <rewrite>
+                    <data>Rom_StoreCivility_Helper_Customer_Data</data>
+                </rewrite>
+            </customer>
+        </helpers>
+    </global>
+</config>
