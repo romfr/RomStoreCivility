@@ -1,0 +1,14 @@
+{
+  "name": "rom/storecivility",
+  "license": ["OSL-3.0"],
+  "type": "magento-module",
+  "description": "Allow to setup StoreView-specific customer prefixes in Magento (currently only Website-specific)",
+  "homepage": "https://github.com/borriglione/RomStoreCivility",
+  "authors":[{
+    "name": "André Herrn",
+    "email": "info@andre-herrn.de"
+  }],
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  }
+}
